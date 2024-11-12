@@ -19,9 +19,10 @@ pip install viewcsv
 ## Usage
 
 ```bash
-viewcsv data.csv                 # View entire CSV file
-viewcsv data.csv -n 10          # View first 10 rows
-viewcsv data.csv --no-header    # View without header row
+viewcsv data.csv                      # View entire CSV file
+viewcsv data.csv -n 10                # View first 10 rows
+viewcsv data.csv --no-header          # View without header row
+viewcsv data.csv --no-header -n 10    # View without header row while keeping the first 10 rows
 ```
 
 ## Examples
