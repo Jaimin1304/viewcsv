@@ -1,0 +1,40 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "viewcsv"
+version = "1.0.0"
+description = "A command-line tool for viewing CSV files with aligned columns"
+readme = "README.md"
+authors = [{ name = "Jiamin Lin", email = "jiamin2001g@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Text Processing :: General",
+  "Topic :: Utilities",
+]
+keywords = ["csv", "cli", "viewer", "terminal", "console"]
+dependencies = []
+requires-python = ">=3.6"
+
+[project.scripts]
+viewcsv = "viewcsv.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/yourusername/viewcsv"
+Repository = "https://github.com/yourusername/viewcsv.git"
+"Bug Tracker" = "https://github.com/yourusername/viewcsv/issues"
