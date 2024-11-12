@@ -1,6 +1,6 @@
 # pyproject.toml
 [build-system]
-requires = ["setuptools>=45", "wheel"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -35,6 +35,6 @@ requires-python = ">=3.6"
 viewcsv = "viewcsv.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/viewcsv"
-Repository = "https://github.com/yourusername/viewcsv.git"
-"Bug Tracker" = "https://github.com/yourusername/viewcsv/issues"
+Homepage = "https://github.com/Jaimin1304/view-csv"
+Repository = "https://github.com/Jaimin1304/view-csv.git"
+"Bug Tracker" = "https://github.com/Jaimin1304/view-csv/issues"
