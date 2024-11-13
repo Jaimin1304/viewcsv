@@ -6,7 +6,7 @@ from pathlib import Path
 from statistics import mean
 from typing import List, Optional
 from dataclasses import dataclass
-from count_cjk import count_cjk
+from .count_cjk import count_cjk
 
 
 @dataclass

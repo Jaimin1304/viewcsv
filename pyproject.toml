@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "viewcsv"
-version = "1.1.0"
+version = "1.1.1"
 description = "A command-line tool for viewing CSV files with aligned columns"
 readme = "README.md"
 authors = [{ name = "Jiamin Lin", email = "jiamin2001g@gmail.com" }]
