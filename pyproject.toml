@@ -5,13 +5,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "viewcsv"
-version = "1.0.0"
+version = "1.1.0"
 description = "A command-line tool for viewing CSV files with aligned columns"
 readme = "README.md"
 authors = [{ name = "Jiamin Lin", email = "jiamin2001g@gmail.com" }]
 license = { file = "LICENSE" }
 classifiers = [
-  "Development Status :: 4 - Beta",
+  "Development Status :: 5 - Production/Stable",
   "Environment :: Console",
   "Intended Audience :: Developers",
   "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
